@@ -1,0 +1,63 @@
+body{
+    background-color: royalblue;
+    text-align: center;
+}
+
+.all-pizza-container{
+    display: inline-flex;
+}
+
+.small-pizza-container{
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: green;
+}
+
+.medium-pizza-container{
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: orange;
+}
+
+.large-pizza-container{
+    width: 300px;
+    padding: 20px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: violet;
+}
+
+
+/*the size of the small pizza image*/
+.small-pizza-container img{
+    width: 150px;
+    height: 150px;
+}
+
+/*the size of the medium pizza image*/
+.medium-pizza-container img{
+    width: 200px;
+    height: 200px;
+}
+
+/*the size of the large pizza image*/
+.large-pizza-container img{
+    width: 250px;
+    height: 250px;
+}
+
+
+/* here we change the style ONLY when the screen size is 800 pixels OR LESS*/
+@media screen and (max-width: 900px) {
+
+    .all-pizza-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
