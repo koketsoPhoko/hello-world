@@ -52,7 +52,7 @@ body{
 
 
 /* here we change the style ONLY when the screen size is 800 pixels OR LESS*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
 
     .all-pizza-container{
         display: flex;
@@ -61,8 +61,8 @@ body{
     }
     footer{
 width: 90%;
-padding: 20px;
-background-color: blue;
+padding: 30px;
+background-color: white;
 margin: 20px auto;
 
     }
