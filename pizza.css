@@ -11,7 +11,7 @@ body{
     width: 300px;
     padding: 20px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: green;
 }
 
@@ -19,7 +19,7 @@ body{
     width: 300px;
     padding: 20px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: orange;
 }
 
@@ -27,27 +27,27 @@ body{
     width: 300px;
     padding: 20px;
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
     background-color: violet;
 }
 
 
 /*the size of the small pizza image*/
 .small-pizza-container img{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 100px;
 }
 
 /*the size of the medium pizza image*/
 .medium-pizza-container img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
 }
 
 /*the size of the large pizza image*/
 .large-pizza-container img{
     width: 250px;
-    height: 250px;
+    height: 200px;
 }
 
 
