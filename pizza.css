@@ -47,7 +47,7 @@ body{
 /*the size of the large pizza image*/
 .large-pizza-container img{
     width: 250px;
-    height: 200px;
+    height: 250px;
 }
 
 
@@ -60,7 +60,7 @@ body{
         align-items: center;
     }
     footer{
-width: 90%;
+width: 250%;
 padding: 30px;
 background-color: white;
 margin: 20px auto;
