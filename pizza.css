@@ -35,7 +35,7 @@ body{
 /*the size of the small pizza image*/
 .small-pizza-container img{
     width: 250px;
-    height: 100px;
+    height: 150px;
 }
 
 /*the size of the medium pizza image*/
@@ -47,7 +47,7 @@ body{
 /*the size of the large pizza image*/
 .large-pizza-container img{
     width: 250px;
-    height: 250px;
+    height: 1500px;
 }
 
 
@@ -60,7 +60,7 @@ body{
         align-items: center;
     }
     footer{
-width: 250%;
+width: 90%;
 padding: 30px;
 background-color: white;
 margin: 20px auto;
