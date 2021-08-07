@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- below is to link this html document with pizza.css, without this style won't show-->
+    <title>Simplegrid pizza</title>
     <link rel="stylesheet" href="pizza.css">
+    <link rel="stylesheet" href="simple-grid.css">
+    <link rel="stylesheet" href="simple-grid.min.css">
+    <link rel="stylesheet" href="simple-grid.scss">
 </head>
 <body>
     
-    <h3>Perfect Pizza</h3>
+    <h3>Perfect Pizza Using SimpleGrid</h3>
 
-    <div class="all-pizza-container">
+    <div class="container">
+        
+        <div class="row">
 
-        <div class="small-pizza-container">
+        <div class="col-3">
             <h3>Small Pizza</h3>
 
             <img src="pizza.jpg">
@@ -26,7 +29,7 @@
            
         </div>
 
-        <div class="medium-pizza-container">
+        <div class="col-3">
             <h3>Medium Pizza</h3>
 
             <img src="pizza.jpg">
@@ -36,7 +39,7 @@
             <p>TREAT YOUR FRIENDS TO COMFORT FOOD THIS SPECIAL WINTER, buy any Pizza flavour and get a bowl of chill for free,a chill pizza that goes a long way and taste like it was made of Roman Flavour</p>
         </div>
 
-        <div class="large-pizza-container">
+        <div class="col-3">
             <h3>Large Pizza</h3>
 
             <img src="pizza.jpg">
@@ -48,11 +51,13 @@
         </div>
 
     </div>
+    
+    </div>
 
 <footer>
-    <container>
-<p>serving with pride contact no
-    0762117433</p>
+    <p>serving with pride contact no 0762117433</p>
 </footer>
+    
+    
 </body>
 </html>
