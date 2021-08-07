@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(52, 52, 253);
+    text-align: center;
+}
+
+.heading{
+    color: white;
+    font-size: 20px;
+}
+
+.col-3{
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.col-3 p{
+    color: #2c74c7;
+    font-size: 14px;
+}
+
+.col-3 img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.col-3 .pizza-image-container{
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+    height: 160px;
+}
+
+
+footer{
+    padding: 10px;
+}
+
+footer p{
+    color: whitesmoke;
+    font-size: 16px;
+}
